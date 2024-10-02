@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: min(5vh, 4rem);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d5912f;
+}
+header h1{
+    font-size: 2em;
+    color: white;
+    margin-top: -0.7em;
+}
+header a{
+   text-decoration: none;
+}
+header button{
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 1em;
+    background-color: #d5912f;
+    border-color: #d5912f;
+    color: white;
+    margin-top: -2em;
+    font-size: 1em;
+    font-weight: 600;
+}
+header button:hover{
+    cursor: pointer;
+}
+.section-01{
+    padding: min(5vh, 15rem);
+    width: 100%;
+    background-color: #d5912f;
+    display: flex;
+    align-items: center;
+}
+.section-01 .div-uma{
+    display: block;
+    margin: 6em;
+    width: auto;
+    
+    
+}
+.div-uma h2{
+    color: white;
+    font-size: 2em;
+    
+}
+.div-uma p{
+    font-size: 1.3em;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+.div-uma button{
+    width: 17em;
+    height: 3em;
+    border-radius: 0.8em;
+    border-color: #d5912f;
+    
+}
